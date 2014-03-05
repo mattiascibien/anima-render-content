@@ -3,7 +3,7 @@ Camera {
 	direction 0.0 0.0 -1.0
 	up 0.0 1.0 0.0
 	FOVy 45
-	screenEffect "sharpen3x3"
+	screenEffect "screeneffects/sharpen3x3"
 }
 
 Transform {
@@ -23,9 +23,9 @@ Transform {
 	scale 1 1 1 
 
 	Object {
-		geometry "teapot.obj"
-		material "BlinnPhongDiffuse"
+		geometry "geometries/teapot.obj"
+		material "martials/BlinnPhongDiffuse"
 		params "ambient=0.1,0.1,0.1,1.0;shininess=51.2"
-		texture0 diffuseTexture "flowers.bmp"
+		texture0 diffuseTexture "textures/flowers.bmp"
 	}
 }
